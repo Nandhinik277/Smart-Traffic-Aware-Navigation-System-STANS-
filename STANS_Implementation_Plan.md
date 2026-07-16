@@ -1,6 +1,6 @@
 # STANS — Two-Phase Implementation Plan
 
-**Project:** roadmap.sh — STANS Navigation System Deployment  
+**Project:**  STANS Navigation System Deployment  
 
 **Dependency:** Phase 2 begins after Phase 1 workflows are merged to `main`
 
