@@ -65,7 +65,7 @@ jobs:
 
       - name: Upload Trivy filesystem SARIF to GitHub Security tab
         # SHA-pinned: github/codeql-action/upload-sarif@v3 (tag: v3.28.19)
-        uses: github/codeql-action/upload-sarif@ff0a06e83cb2de871e5a09832bc6a81e7276941f
+        uses: github/codeql-action/upload-sarif@99df26d4f13ea111d4ec1a7dddef6063f76b97e9
         if: always() && hashFiles('trivy-fs-results.sarif') != ''
         with:
           sarif_file: "trivy-fs-results.sarif"
@@ -127,7 +127,7 @@ jobs:
 
       - name: Upload Trivy image SARIF to GitHub Security tab
         # SHA-pinned: github/codeql-action/upload-sarif@v3 (tag: v3.28.19)
-        uses: github/codeql-action/upload-sarif@ff0a06e83cb2de871e5a09832bc6a81e7276941f
+        uses: github/codeql-action/upload-sarif@99df26d4f13ea111d4ec1a7dddef6063f76b97e9
         if: always() && hashFiles('trivy-image-results.sarif') != ''
         with:
           sarif_file: "trivy-image-results.sarif"
