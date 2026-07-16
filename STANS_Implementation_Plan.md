@@ -1,8 +1,7 @@
 # STANS — Two-Phase Implementation Plan
 
 **Project:** roadmap.sh — STANS Navigation System Deployment  
-**Repo reference:** https://roadmap.sh/projects/stans-navigation-deployment  
-**Team split:** Person A → Phase 1 (DevOps) | Person B → Phase 2 (Security)  
+
 **Dependency:** Phase 2 begins after Phase 1 workflows are merged to `main`
 
 ---
