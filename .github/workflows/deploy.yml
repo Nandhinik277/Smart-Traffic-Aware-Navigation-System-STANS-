@@ -68,7 +68,7 @@ jobs:
 
       - name: Set up Docker Buildx
         # Phase 2 attempted SHA pin — reverted to stable tag (bad SHA from Person B)
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       - name: Build and push Docker image
         # Phase 2 attempted SHA pin — reverted to stable tag (bad SHA from Person B)
