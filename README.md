@@ -3,8 +3,7 @@
 A React + TypeScript application that visualizes graph-based route planning with
 traffic simulation, algorithm comparison, and interactive pathfinding.
 
-**Roadmap project:** https://roadmap.sh/projects/stans-navigation-deployment  
-**Repository:** https://github.com/Dakshmulundkar/STANS
+
 
 ---
 
