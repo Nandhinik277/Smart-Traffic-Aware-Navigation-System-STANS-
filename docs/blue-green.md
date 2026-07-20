@@ -10,7 +10,6 @@
 - [Automated Rollback](#automated-rollback)
 
 ---
-
 ## Blue-Green Deployment
 
 Blue-green deployment runs two identical production environments (blue and green).
