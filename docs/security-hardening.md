@@ -4,7 +4,6 @@ This document describes every security control implemented in Phase 2 and
 explains how to verify, maintain, and extend them in production.
 
 ---
-
 ## 1. Container Hardening (P2-C)
 
 ### Read-only filesystem
